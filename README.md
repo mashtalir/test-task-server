@@ -4,3 +4,5 @@
     <p>source ./venv/bin/activate</p>
    <h2>Install requirements</h2>
      <p>pip install -r requirements.txt</p>
+   <h2>Run server</h2>
+   <p>python3 manage.py runserver</p>
