@@ -1,4 +1,4 @@
-<h1>For Linux users</h1>
+<h1>For Linux users<h1>
   <h1>Create virualenv and activate<h1>
     <p>python3 -m venv venv<p>
     <p>source ./venv/bin/activate<p>
