@@ -1,3 +1,6 @@
+<h1>containerize project</h1>
+  <h2>docker-compose up</h2>
+
 <h1>For Linux users</h1>
   <h2>Create virualenv and activate</h2>
     <p>python3 -m venv venv</p>
