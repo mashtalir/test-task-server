@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: task
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+  client:
+    build:
+      context: ../test-task-client
+      dockerfile: ../test-task-client/Dockerfile
+    ports:
+      - "3000:3000"
