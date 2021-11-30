@@ -1,5 +1,8 @@
 <h1>Containerize project</h1>
-  <h3>docker-compose up</h3>
+  <p>docker-compose up</p>
+<h2>To reach webpage</h2>
+  <p>localhost:3000</p>
+  
 
 <h1>For Linux users</h1>
   <h2>Create virualenv and activate</h2>
