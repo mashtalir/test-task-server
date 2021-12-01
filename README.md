@@ -1,5 +1,5 @@
 <h1>Docker settings</h1>
-<p>1) after pulling all the project move Dockerfile and runner.sh to directory above
+<p>1) after pulling all the project, move Dockerfile and runner.sh to directory above
 <br> (take care of changing pathes inside Dockerfile)
 </p>
 
