@@ -15,18 +15,18 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from . import views
+from .views import group, user
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('users/add-user/', views.user_add),
-    path('users/edit-user/<int:id>/',views.user_edit),
-    path('users/', views.get_users),
-    path('users/delete/<int:id>/',views.delete_user),
-    
-    path('groups/add-group/',views.add_group),
-    path('groups/',views.get_groups),
-    path('groups/delete/<int:id>/',views.delete_group),
-    path('groups/work-names/',views.set_work_names),
-    path('groups/edit-group/<int:id>/',views.edit_group)
+    path('users/add-user/', user.user_add),
+    path('users/edit-user/<int:id>/', user.user_edit),
+    path('users/', user.get_users),
+    path('users/delete/<int:id>/', user.delete_user),
+
+    path('groups/add-group/', group.add_group),
+    path('groups/', group.get_groups),
+    path('groups/delete/<int:id>/', group.delete_group),
+    path('groups/work-names/', group.set_work_names),
+    path('groups/edit-group/<int:id>/', group.edit_group)
 ]
