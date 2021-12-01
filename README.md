@@ -6,6 +6,7 @@
 <br> docker build . -t "image_name"
 <br> docker run -p 3000:3000 -p 8000:8000 "image_name or image_id"
 </p>
+<p>To reach webpage write localhost:3000 in browser</p>
 <p>This is so stupid because i did 2 separate repositories for client and server and Dockerfile should be always<br>
   in directory above of project</p>
 
