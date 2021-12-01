@@ -2,6 +2,11 @@
 <p>1) after pulling all the project move Dockerfile and runner.sh to directory above
 <br> (take care of changing pathes inside Dockerfile)
 </p>
+
+<p align="left">
+  <img src="https://i.postimg.cc/Y9tZ7wJw/Screenshot-1.png" width="350" title="hover text">
+</p>
+
 <p>2) Inside of directory where Dockerfile is - run:
 <br> docker build . -t "image_name"
 <br> docker run -p 3000:3000 -p 8000:8000 "image_name or image_id"
