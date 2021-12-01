@@ -8,7 +8,7 @@ RUN apt-get update || : && apt-get install -y \
 RUN mkdir -p /usr/src/app/client/
 WORKDIR /usr/src/app/client/
 
-COPY ../test-task-client /usr/src/app/client/
+COPY test-task-client /usr/src/app/client/
 
 RUN npm install
 
@@ -18,7 +18,7 @@ EXPOSE 3000
 RUN mkdir -p /usr/src/app/server/
 WORKDIR /usr/src/app/server/
 
-COPY task /usr/src/app/server/
+COPY test-task-server/task /usr/src/app/server/
 RUN pip3 install --no-cache-dir -r requirements.txt
 
 ENV PYTHONUNBUFFERED=1
